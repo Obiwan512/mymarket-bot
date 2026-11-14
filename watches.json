@@ -1,0 +1,18 @@
+[
+  {
+    "name": "All Apple MacBooks",
+    "enabled": true,
+    "payload": { "CatID": 53, "Brands": 42, "SortID": 1 },
+    "pages": 2,
+    "min_price": null,
+    "max_price": null,
+    "must_include_any": [],
+    "must_include_all": [],
+    "exclude": [],
+    "ai_rule": "",
+    "fetch_details": false,
+    "allow_no_price": true,
+    "price_drops": true,
+    "skip_renewed": false
+  }
+]

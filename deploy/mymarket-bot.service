@@ -1,0 +1,14 @@
+[Unit]
+Description=mymarket.ge Telegram bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=mymarket
+WorkingDirectory=/opt/mymarket-bot
+ExecStart=/opt/mymarket-bot/.venv/bin/python bot.py --loop
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
